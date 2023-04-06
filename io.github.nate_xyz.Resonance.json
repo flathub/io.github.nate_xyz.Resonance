@@ -17,7 +17,8 @@
         "--filesystem=xdg-download:ro",
         "--filesystem=xdg-music:ro",
         "--filesystem=xdg-run/app/com.discordapp.Discord:create",
-        "--filesystem=xdg-run/discord-ipc-0"
+        "--filesystem=xdg-run/discord-ipc-0",
+        "--talk-name=org.freedesktop.portal.OpenURI"
     ],
     "build-options" : {
         "append-path" : "/usr/lib/sdk/rust-stable/bin"
