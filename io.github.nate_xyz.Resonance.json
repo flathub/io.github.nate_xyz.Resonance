@@ -51,7 +51,7 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/nate-xyz/resonance",
-                    "commit":"901e76f87787c194ef31a9252cee8048f9041510"
+                    "commit":"72cc1d2865be275519903b9d0918b3ac2fb7d288"
                 }
             ]
         }
