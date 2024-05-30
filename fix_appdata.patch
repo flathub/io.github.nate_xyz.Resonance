@@ -1,0 +1,25 @@
+diff --git a/data/io.github.nate_xyz.Resonance.appdata.xml.in b/data/io.github.nate_xyz.Resonance.appdata.xml.in
+index 53fac39..8382520 100644
+--- a/data/io.github.nate_xyz.Resonance.appdata.xml.in
++++ b/data/io.github.nate_xyz.Resonance.appdata.xml.in
+@@ -27,6 +27,8 @@
+ 	<url type="homepage">https://github.com/nate-xyz/resonance</url>
+   <url type="bugtracker">https://github.com/nate-xyz/resonance/issues</url>
+   <url type="donation">https://ko-fi.com/natexyz</url>
++  <url type="vcs-browser">https://github.com/nate-xyz/resonance</url>
++  <url type="translate">https://github.com/nate-xyz/resonance/tree/main/po</url>
+ 
+ 	<releases>
+     <release version="0.1.3" date="2023-04-09">
+@@ -73,7 +75,7 @@
+   </categories>
+ 
+ 	<screenshots>
+-    <screenshot>
++    <screenshot type="default">
+       <image>https://raw.githubusercontent.com/nate-xyz/resonance/main/data/screenshots/resonance2.png</image>
+     </screenshot>
+     <screenshot>
+--
+libgit2 1.7.2
+

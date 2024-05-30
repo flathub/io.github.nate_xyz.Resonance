@@ -1,7 +1,7 @@
 {
     "app-id" : "io.github.nate_xyz.Resonance",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "44",
+    "runtime-version" : "46",
     "sdk" : "org.gnome.Sdk",
     "sdk-extensions" : [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -52,6 +52,10 @@
                     "type" : "git",
                     "url" : "https://github.com/nate-xyz/resonance",
                     "commit":"72cc1d2865be275519903b9d0918b3ac2fb7d288"
+                },
+                {
+                    "type" : "patch",
+                    "path":"fix_appdata.patch"
                 }
             ]
         }
