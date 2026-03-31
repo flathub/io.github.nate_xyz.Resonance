@@ -1,12 +1,13 @@
 {
     "app-id" : "io.github.nate_xyz.Resonance",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "46",
+    "runtime-version" : "50",
     "sdk" : "org.gnome.Sdk",
     "sdk-extensions" : [
         "org.freedesktop.Sdk.Extension.rust-stable"
     ],
     "command" : "resonance",
+    "rename-appdata-file": "io.github.nate_xyz.Resonance.appdata.xml",
     "finish-args" : [
         "--share=network",
         "--share=ipc",
@@ -23,15 +24,7 @@
         "append-path" : "/usr/lib/sdk/rust-stable/bin"
     },
     "cleanup" : [
-        "/include",
-        "/lib/pkgconfig",
-        "/man",
-        "/share/doc",
-        "/share/gtk-doc",
-        "/share/man",
-        "/share/pkgconfig",
-        "*.la",
-        "*.a"
+        "/share/man"
     ],
     "modules" : [
         "pypi-dependencies.json",
